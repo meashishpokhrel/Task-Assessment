@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
   }
+
   html,body{
     display: grid;
     height: 100%;
@@ -11,6 +11,7 @@
     background: linear-gradient(#84fab0,#8fd3f4);
     font-family: 'Lato','Arial',sans-serif;
   }
+  
 .card{
     
     perspective: 150rem;

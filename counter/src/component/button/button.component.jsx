@@ -1,21 +1,16 @@
-import React, { Component } from "react";
-import "./button2.scss"
+import React from "react";
+import "./button.styles.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-export default class Button extends Component {
+class Button extends React.Component {
   render() {
     return (
-        <div className="functionButtons">
-            
         <div className="outer circle">
-        <div className="buttons">
-        <button onClick={this.props.function}>
-            <FontAwesomeIcon icon={this.props.iconName}  />
-            </button>
-        </div>
-        </div>
-        </div>
-        
+              <button onClick={this.props.function}>
+              <FontAwesomeIcon icon={this.props.iconName}  />
+              </button>
+          </div>
     )
   }
 }
 
+export default Button
