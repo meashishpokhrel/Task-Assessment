@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Button from "../button/button.component"
-import { faCoffee, faSync, faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
+import { faSync, faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
 import "./card.styles.scss"
 class Card extends React.Component {
     constructor() {
