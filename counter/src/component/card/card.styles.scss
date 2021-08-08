@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: linear-gradient(#84fab0,#8fd3f4);
+    font-family: 'Lato','Arial',sans-serif;
+  }
+.card{
+    
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 35rem;
+    width: 34rem; 
+    border-radius: 50px;
+    box-shadow: 15rem;
+    background-image: linear-gradient(#8e44ad, #34495e,#e67e22);
+}
+.count{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 30px;
+    color: #f6ceab;
+}
+.count-number{
+    font-size: 220px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: 100;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 5px;
+    padding-top: 30px;
+    
+}
+
+@media (max-width: 640px){
+    .card{
+        
+        height: 25rem;
+        width: 22rem; 
+
+    }
+    .count{
+      font-size: 30px;
+      padding: 5px;
+    }
+    .count-number{
+        font-size: 180px;
+        padding-bottom: -150px;
+    }
+  }
